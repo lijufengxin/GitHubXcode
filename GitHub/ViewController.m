@@ -17,9 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"github");
+    [self reverse:@"nihao"];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+-(void)reverse:(NSString *)string{
+    NSLog(@"%@",string.uppercaseString);
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
