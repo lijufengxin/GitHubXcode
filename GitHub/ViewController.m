@@ -18,6 +18,7 @@
     [super viewDidLoad];
     NSLog(@"github");
     [self reverse:@"nihao"];
+    NSLog(@"fengxin");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
